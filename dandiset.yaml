@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/001176
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:EmbargoedAccess
@@ -22,9 +23,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 234659156
-  numberOfFiles: 20
-  numberOfSubjects: 4
+  numberOfBytes: 330595082
+  numberOfFiles: 28
+  numberOfSubjects: 5
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -38,30 +39,49 @@ assetsSummary:
   - ImagingPlane
   - OpticalChannel
   - PlaneSegmentation
-citation: Cortical acetylcholine dynamics are predicted by cholinergic axon activity
-  and behavior state (2024). (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001176/draft
+citation: Reimer, Jacob; Neyhart, Erin (2024) Cortical acetylcholine dynamics are
+  predicted by cholinergic axon activity and behavior state (Version draft) [Data
+  set]. DANDI archive. https://dandiarchive.org/dandiset/001176/draft
 contributor:
 - awardNumber: 1 R34 NS 132045-00
   name: National Institutes of Health (NIH)
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- email: reimer@bcm.edu
+  identifier: 0000-0003-4364-8846
+  includeInCitation: true
+  name: Reimer, Jacob
+  schemaKey: Person
+- identifier: 0000-0001-9164-0553
+  includeInCitation: true
+  name: Neyhart, Erin
+  schemaKey: Person
 dateCreated: '2024-08-20T15:21:20.590746+00:00'
 description: This dataset includes simultaneous in vivo imaging data of acetylcholine
   (ACh) sensors and GCaMP-expressing axons in the cortex during spontaneous changes
   in behavioral states in awake animals. It features detailed recordings of ACh activity,
   axon activity, and pupil size, providing valuable insights into the spatiotemporal
   properties of cortical ACh release and its correlation with axonal activity.
+ethicsApproval: []
 id: DANDI:001176/draft
 identifier: DANDI:001176
+keywords:
+- acetylcholine
+- brain states
+- two-photon-imaging
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001176/versions/draft/assets/
 name: Cortical acetylcholine dynamics are predicted by cholinergic axon activity and
   behavior state
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
+studyTarget: []
 url: https://dandiarchive.org/dandiset/001176/draft
 version: draft
+wasGeneratedBy: []
