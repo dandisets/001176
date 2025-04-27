@@ -44,7 +44,8 @@ citation: Reimer, Jacob; Neyhart, Erin (2025) Cortical acetylcholine dynamics ar
   predicted by cholinergic axon activity and behavior state (Version draft) [Data
   set]. DANDI Archive. https://dandiarchive.org/dandiset/001176/draft
 contributor:
-- awardNumber: 1 R34 NS 132045-00
+- awardNumber: RF1 NS128901
+  includeInCitation: false
   name: National Institutes of Health (NIH)
   roleName:
   - dcite:Funder
@@ -89,12 +90,10 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001176/versions/draft/assets/
 name: Cortical acetylcholine dynamics are predicted by cholinergic axon activity and
   behavior state
-protocol: []
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
-studyTarget: []
 url: https://dandiarchive.org/dandiset/001176/draft
 version: draft
 wasGeneratedBy: []
